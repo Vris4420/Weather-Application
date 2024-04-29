@@ -18,6 +18,8 @@ import somkeIcon from './somkeIcon.png'
 import overCastCloudsIcon from './overCastCloudsIcon.png'
 import hazeIcon from './hazeIcon.png'
 
+import humidityBG from './humidityBG.jpg'
+
 export const assets = {
     background,
     sunIcon,
@@ -35,7 +37,8 @@ export const assets = {
     rainIcon,
     somkeIcon,
     overCastCloudsIcon,
-    hazeIcon
+    hazeIcon,
+    humidityBG
 
 
 

@@ -5,6 +5,7 @@ import Sidebar from '../components/Sidebar/Sidebar'
 import DayInfo from '../components/DayInfo/DayInfo'
 import CityDisplay from '../components/CityDisplay/CityDisplay'
 import WeatherInfo from '../components/WeatherInfo/WeatherInfo'
+import HumidityInfo from '../components/HumidityInfo/HumidityInfo'
 
 export default function WeatherApp() {
     const [weatherInfo, setWeatherInfo] = useState({
@@ -26,6 +27,7 @@ export default function WeatherApp() {
             <DayInfo/>
             <CityDisplay info={weatherInfo}/>
             <WeatherInfo info={weatherInfo}/>
+            <HumidityInfo info={weatherInfo}/>
             {/* <SearchBox updateInfo={updateInfo} /> */}
             {/* <InfoBox info={weatherInfo}/> */}
         </div>

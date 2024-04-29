@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+.humidity{
+    position: relative;
+    width: 29.7%;
+    height: 150px;
+    display: flex;
+}
+
+.humidity img{
+    border-radius: 15px;
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.humidity-status{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.4); 
+    backdrop-filter: blur(2px);
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.humidity-title{
+    margin: 15px;
+    font-size: 20px;
+    font-family: Outfit;
+    display: block;
+    color: white;
+    width: 100%;
+}
+
+.humidity-info{
+    color: white;
+    font-family: Outfit;
+    font-size: 50px;
+    margin-left: 50%;
+
+}
+
