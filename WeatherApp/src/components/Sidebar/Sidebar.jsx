@@ -8,7 +8,6 @@ import './Sidebar.css'
             <div className="container">
                 <div className="bg-img">
                     <img src={assets.background} alt="img" />
-                    <div className="dark-skin"></div>
                 </div>
                 {info.temp === "" ? "" : (
                     <div className="icons">

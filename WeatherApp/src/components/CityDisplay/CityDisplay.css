@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+.cont{
+    position: absolute;
+    height: 400px;
+    width: 37%;
+    top: 13%;
+    left: 30.3%;
+    margin: 0px 15px 15px 15px;
+    border-radius: 15px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.cont img{
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+
+}
+
+.temp{
+    position: absolute;
+    top: 22%;
+    height: 200px;
+    width: 25%;
+    /* background-color: azure; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: "Crimson Text";
+    font-weight: 500;
+    font-size: 70px;
+
+}
+
+.city-name{
+    position: absolute;
+    top: 70%;
+    height: 100px;
+    width: 35%;
+    /* background-color:aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid white;
+    font-size: 50px;
+    font-family: "Bungee Outline";
+    color: white;
+    font-weight: 600;
+}
