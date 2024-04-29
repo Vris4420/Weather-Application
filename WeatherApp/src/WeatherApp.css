@@ -1,0 +1,8 @@
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row; /* Ensure items are laid out horizontally */
+    justify-content: space-between; /* Adjust spacing between items */
+    align-items: center; /* Align items vertically */
+}

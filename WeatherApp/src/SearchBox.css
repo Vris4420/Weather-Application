@@ -2,3 +2,18 @@
     text-align: center;
     margin-bottom: 25px;
 }
+
+.textfield{
+    background-color: white;
+    border-radius: 5px;
+    width: 230px;
+    height: 70px;
+    position: relative;
+    bottom: 5px;
+    border: 2px solid tomato;
+}
+
+.innerTextfield{
+    position: relative;
+    top: 8px;
+}

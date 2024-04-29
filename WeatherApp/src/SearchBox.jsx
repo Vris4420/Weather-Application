@@ -8,6 +8,7 @@ export default function SearchBox({updateInfo}){
     let [error, setError] = useState(false);
     const API_URL="https://api.openweathermap.org/data/2.5/weather";
     const API_KEY= "56d8f0d3ea805adad536bf6ac570de74";
+    
     let getWeatherInfo = async() => {
         try{
             let response =  await fetch(`${API_URL}?q=${city}&appid=${API_KEY}&units=metric`);
@@ -46,10 +47,12 @@ export default function SearchBox({updateInfo}){
     return(
         <div className='SearchBox'>
             <form onSubmit={handleSubmit}>
-                <TextField id='outlined-basic' label='City Name' variant='outlined' required value={city} onChange={handleChange}/>
+                <div className="textfield">
+                    <TextField id='outlined-basic' className='innerTextfield' label='City Name' variant='outlined' required value={city} onChange={handleChange} />
+                </div>
                 <br></br>
                 <br></br>
-                <Button variant='contained' type='submit'>
+                <Button variant='contained' type='submit' color="success">
                     Search
                 </Button>
               {error && <p style={{color:"red"}}>No place in our database found!</p>}
