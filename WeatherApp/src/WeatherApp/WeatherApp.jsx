@@ -1,7 +1,8 @@
-import SearchBox from './SearchBox'
-import InfoBox from './InfoBox'
+import SearchBox from '../SearchBox/SearchBox'
+import InfoBox from '../InfoBox/InfoBox'
 import { useState } from 'react'
-import Sidebar from './components/Sidebar/Sidebar'
+import Sidebar from '../components/Sidebar/Sidebar'
+import DayInfo from '../components/DayInfo/DayInfo'
 
 export default function WeatherApp() {
     const [weatherInfo, setWeatherInfo] = useState({
@@ -20,7 +21,8 @@ export default function WeatherApp() {
     return(
         <div className='container'>
             <Sidebar updateInfo={updateInfo} info={weatherInfo}/>
-            <SearchBox updateInfo={updateInfo} />
+            <DayInfo/>
+            {/* <SearchBox updateInfo={updateInfo} /> */}
             <InfoBox info={weatherInfo}/>
         </div>
     )

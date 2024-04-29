@@ -3,6 +3,6 @@
     height: 100%;
     display: flex;
     flex-direction: row; /* Ensure items are laid out horizontally */
-    justify-content: space-between; /* Adjust spacing between items */
+    justify-content: flex-start; /* Align items to the start of the container */
     align-items: center; /* Align items vertically */
 }

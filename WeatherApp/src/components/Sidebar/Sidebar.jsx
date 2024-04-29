@@ -1,4 +1,4 @@
-import SearchBox from '../../SearchBox.jsx'
+import SearchBox from '../../SearchBox/SearchBox.jsx'
 import { assets } from '../../assets/assets.js'
 import './Sidebar.css'
 

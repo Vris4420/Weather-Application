@@ -7,5 +7,5 @@ export const assets = {
     background,
     sunIcon,
     winterIcon,
-    rainGIF
+    rainGIF,
 }
