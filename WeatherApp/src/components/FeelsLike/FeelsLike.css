@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+.feelslike{
+    position: absolute;
+    width: 29.5%;
+    height: 150px;
+    display: flex;
+    top: 78.5%;
+    left: 69.5%;
+}
+
+.feelslike img{
+    border-radius: 15px;
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.feelslike-status{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.4); 
+    backdrop-filter: blur(2px);
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.feelslike-title{
+    margin: 15px;
+    font-size: 20px;
+    font-family: Outfit;
+    display: block;
+    color: white;
+    width: 100%;
+}
+
+.feelslike-info{
+    color: white;
+    font-family: Outfit;
+    font-size: 50px;
+    margin-left: 50%;
+
+}
+
