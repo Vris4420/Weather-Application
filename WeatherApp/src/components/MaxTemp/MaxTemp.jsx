@@ -9,6 +9,9 @@ export default function MaxTemp({info}){
                 <div className="maxtemp-title">
                     Maximum Temperature:
                 </div>
+                <div className="maxTempIcon">
+                    <img src={assets.maxTempIcon} alt="" />
+                </div>
                 {info.tempMax !== "" ? (
                     <div className="maxtemp-info">
                         {info.tempMax}&deg;C

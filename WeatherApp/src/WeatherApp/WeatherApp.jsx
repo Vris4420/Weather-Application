@@ -13,7 +13,7 @@ import FeelsLike from '../components/FeelsLike/FeelsLike'
 export default function WeatherApp() {
     const [weatherInfo, setWeatherInfo] = useState({
         city:"",
-        feelslike:"",
+        feelsLike:"",
         temp: "",
         tempMin: "",
         tempMax: "",

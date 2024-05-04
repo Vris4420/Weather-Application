@@ -26,6 +26,15 @@
     border-radius: 15px;
 }
 
+.minTempIcon{
+    width: 80px;
+    height: 5%;
+    object-fit: cover;
+    position: absolute;
+    top: 12%;
+    left: 10%;
+}
+
 .mintemp-title{
     margin: 15px;
     font-size: 20px;

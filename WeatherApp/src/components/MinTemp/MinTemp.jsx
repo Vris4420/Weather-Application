@@ -9,6 +9,9 @@ export default function MinTemp({info}){
                 <div className="mintemp-title">
                     Minimum Temperature:
                 </div>
+                <div className="minTempIcon">
+                    <img src={assets.minTempIcon} alt="" />
+                </div>
                 {info.tempMin !== "" ? (
                     <div className="mintemp-info">
                         {info.tempMin}&deg;C

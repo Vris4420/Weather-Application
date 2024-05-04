@@ -26,6 +26,15 @@
     border-radius: 15px;
 }
 
+.maxTempIcon{
+    width: 95px;
+    height: 5%;
+    object-fit: cover;
+    position: absolute;
+    top: 12%;
+    left: 8%;
+}
+
 .maxtemp-title{
     margin: 15px;
     font-size: 20px;
