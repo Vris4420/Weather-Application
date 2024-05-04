@@ -7,6 +7,7 @@ import CityDisplay from '../components/CityDisplay/CityDisplay'
 import WeatherInfo from '../components/WeatherInfo/WeatherInfo'
 import HumidityInfo from '../components/HumidityInfo/HumidityInfo'
 import MinTemp from '../components/MinTemp/MinTemp'
+import MaxTemp from '../components/MaxTemp/MaxTemp'
 
 export default function WeatherApp() {
     const [weatherInfo, setWeatherInfo] = useState({
@@ -30,6 +31,7 @@ export default function WeatherApp() {
             <WeatherInfo info={weatherInfo}/>
             <HumidityInfo info={weatherInfo}/>
             <MinTemp info={weatherInfo}/>
+            <MaxTemp info={weatherInfo}/>
             {/* <SearchBox updateInfo={updateInfo} /> */}
             {/* <InfoBox info={weatherInfo}/> */}
         </div>
